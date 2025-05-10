@@ -34,17 +34,18 @@ cd ~/dev/bootstrap/machine-bootstrap/
 ### 2. Run target Bootstrap:
 For WSL:
 ```bash
-bash .wsl/bootstrap.sh
+bash wsl/bootstrap.sh
 ```
 
 ### 3. Preload Config (Optional)
-Instead of using interactive promtps, you can preload values:
-For WSL:
+Instead of using interactive prompts, you can preload values:
+
+- For WSL:
 ```bash
 cp wsl/config.env.example wsl/config.env
 ```
 
-Edit config.env to customize Github username, email, repo URls, etc..
+Edit `config.env` to customize Github username, email, repo URls, etc..
 
 ## 📁 Repository Structure
 ```bash
